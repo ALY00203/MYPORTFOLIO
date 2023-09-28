@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.myname {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: black;
+
+}
+
+.parasam {
+    font-size: 19px; /* You can change 16px to your desired font size */
+}
+
+
+
+
+/* Add custom styles here */
+
+
+
+   .custom-container {
+    height: 100vh; /* 100% viewport height */
+}
+.custom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-custom{
+    background-image: url(../images-vedios/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ .btn {
+    max-width: 200px; /* Adjust the width as needed */
+    width: 100%;
+    background-color: #8277ec;
+    color: #fff; /* Text color */
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for a raised effect */
+}
+
+.custom-text .btn:hover {
+    background-color: #6b62d0; /* New background color on hover */
+    color: #fff; /* New text color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Stronger box shadow on hover */
+}
+
+.wd{
+    width: 130px;
+}
+.wdt {
+    width: 120px;
+    padding-bottom: 10px;
+}
+.wdux{
+    width: 145px;
+    padding-bottom: 10px;
+}
+
+
+@media (min-width: 300px) and (max-width: 1000px) {
+    .por-1{
+        display: none;
+        z-index: 1;
+    }
+}
+/* .me-1{
+    /* z-index: 2; */
+
+
+
+    
+
+.muhammed{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-7{
+    width: 500px;
+    left: -30px;
+    top: -250px;
+}
+
+.project-img {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+/* Card hover effect */
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Stronger box shadow */
+    transform: scale(1.05); /* Slight scale increase on hover */
+    transition: 0.3s; /* Smooth transition for hover effect */
+}
+.about{
+    line-height: 35px;
+}
+.wave{
+    width: 50px;
+}
+
+.bg-off{
+    background-image: url(../images-vedios/banner-2-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.por-1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* border: 2px solid green; */
+}
+.por-2{
+    position: absolute;
+    width: 180px;
+    bottom: 0px;
+    right: 0px;
+    /* border: 2px solid green; */
+}
